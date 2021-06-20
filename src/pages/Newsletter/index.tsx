@@ -2,10 +2,10 @@ import React from "react";
 import Title from "../../components/Title";
 
 import { Container, FormWrapper, TextWrapper, Wrapper } from "./styles";
-
-const Newsletter: React.FC = () => {
+import { SectionId } from "../../interfaces/sectionID";
+const Newsletter: React.FC<SectionId> = ({ id }) => {
   return (
-    <Container>
+    <Container id={id}>
       <Wrapper>
         <TextWrapper>
           <Title>NEWSLETTER</Title>

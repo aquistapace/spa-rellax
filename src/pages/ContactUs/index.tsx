@@ -1,12 +1,12 @@
 import React from "react";
 import ImagePrincipal from "../../assets/image-contact.jpg";
 import Title from "../../components/Title";
-
+import { SectionId } from "../../interfaces/sectionID";
 import { Container, ContentWrapper, ImageWrapper } from "./styles";
 
-const ContactUs: React.FC = () => {
+const ContactUs: React.FC<SectionId> = ({ id }) => {
   return (
-    <Container>
+    <Container id={id}>
       <ImageWrapper>
         <img src={ImagePrincipal} alt="image principal" />
       </ImageWrapper>

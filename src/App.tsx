@@ -16,12 +16,12 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <Header />
-      <Home />
-      <OurPhilosophy  />
+      <Home id="home" />
+      <OurPhilosophy id="about-us" />
       <Testimonials />
-      <OurServices />
+      <OurServices id="services" />
       <Newsletter />
-      <ContactUs />
+      <ContactUs id="contact" />
       <Footer />
     </ThemeProvider>
   );

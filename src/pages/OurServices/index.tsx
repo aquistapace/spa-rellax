@@ -3,7 +3,7 @@ import ImageService1 from "../../assets/image-services-1.jpg";
 import ImageService2 from "../../assets/image-services-2.jpg";
 import ImageService3 from "../../assets/image-services-3.jpg";
 import Title from "../../components/Title";
-
+import { SectionId } from "../../interfaces/sectionID";
 import {
   Container,
   ContentBox,
@@ -14,9 +14,9 @@ import {
   WrapperRight,
 } from "./styles";
 
-const OurServices: React.FC = () => {
+const OurServices: React.FC<SectionId> = ({ id }) => {
   return (
-    <Container>
+    <Container id={id}>
       <WrapperLeft>
         <TextWrapper>
           <Title>OUR SERVICES</Title>

@@ -6,10 +6,10 @@ import ImageOrganicLinen from "../../assets/organic-linen.png";
 
 import { Container, TextWrapper, ImageWrapper, TextBox } from "./styles";
 import Title from "../../components/Title";
-
-const OurPhilosophy: React.FC = () => {
+import { SectionId } from "../../interfaces/sectionID";
+const OurPhilosophy: React.FC<SectionId> = ({ id }) => {
   return (
-    <Container>
+    <Container id={id}>
       <ImageWrapper>
         <img src={ImagePrincipal} alt="image" />
       </ImageWrapper>

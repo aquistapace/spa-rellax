@@ -1,11 +1,11 @@
 import React from "react";
-import about1 from "../../assets/bg.png";
 import Title from "../../components/Title";
+import { SectionId } from "../../interfaces/sectionID";
 import { Container, ContentBox, Parallax } from "./styles";
 
-const Testimonials: React.FC = () => {
+const Testimonials: React.FC<SectionId> = ({id}) => {
   return (
-    <Container>
+    <Container id={id}>
       <Parallax />
       <ContentBox>
         <Title>TESTIMONIALS</Title>
