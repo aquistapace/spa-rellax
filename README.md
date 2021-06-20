@@ -71,10 +71,10 @@
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:aquistapace/challenge-charlie.git
+$ git clone git@github.com:aquistapace/spa-rellax.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd challenge-charlie
+$ cd spa-rellax
 
 # Instale as dependências
 $ npm install
