@@ -44,7 +44,7 @@
 ## 📺 Demo
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="login" title="Página de Login" src="https://github.com/aquistapace/challenge-charlie/blob/main/src/assets/login.png" width="400px">
+ <img alt="Spa Rellax"" title="Spa Rellax" src="https://github.com/aquistapace/spa-rellax/blob/main/demo_spa.gif" width="650px" height="400px">
   </p>
   
 ---
@@ -55,7 +55,8 @@
 
 - Página Home e About Us.
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="login" title="Página de Login" src="https://github.com/aquistapace/challenge-charlie/blob/main/src/assets/login.png" width="400px">
+	<img alt="Spa Rellax"" title="Página de Hoe=me" src="https://github.com/aquistapace/spa-rellax/blob/main/home_spa.png" width="400px">
+  <img alt="Spa Rellax"" title="Página de About US" src="https://github.com/aquistapace/spa-rellax/blob/main/about_us.png" width="400px"></p>
   
 ---
 ## 🚀 Como executar o projeto
