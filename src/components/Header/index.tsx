@@ -27,7 +27,7 @@ const Header: React.FC = () => {
             spy={true}
             smooth={true}
             offset={-70}
-            duration={500}
+            duration={450}
           >
             About Us
           </Link>
